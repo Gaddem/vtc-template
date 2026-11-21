@@ -1,0 +1,1 @@
+import{t as e}from"./toast.DgXjgaBU.js";document.addEventListener(`click`,t=>{let n=t.target instanceof Element?t.target:null,r=n?.closest(`[data-demo-toast]`);r?e(r.dataset.demoToast??``,r.dataset.demoText??``,`info`):n?.closest(`[data-print]`)&&window.print()});

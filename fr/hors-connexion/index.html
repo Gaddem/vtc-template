@@ -1,0 +1,69 @@
+<!DOCTYPE html><html lang="fr" data-theme="noir-champagne"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Hors connexion — Velours</title><meta name="description" content="Cette page n’est pas encore gardée sur votre appareil. Elle s’affichera dès le retour du réseau ; pour une course urgente, appelez directement votre chauffeur."><meta name="robots" content="noindex, nofollow"><link rel="canonical" href="https://gaddem.github.io/vtc-template/fr/hors-connexion/"><link rel="alternate" hreflang="fr" href="https://gaddem.github.io/vtc-template/fr/hors-connexion/"><link rel="alternate" hreflang="en" href="https://gaddem.github.io/vtc-template/en/hors-connexion/"><meta property="og:type" content="website"><meta property="og:title" content="Hors connexion — Velours"><meta property="og:description" content="Cette page n’est pas encore gardée sur votre appareil. Elle s’affichera dès le retour du réseau ; pour une course urgente, appelez directement votre chauffeur."><meta property="og:url" content="https://gaddem.github.io/vtc-template/fr/hors-connexion/"><meta property="og:locale" content="fr_FR"><meta property="og:image" content="https://gaddem.github.io/vtc-template/_astro/hero-night-warm.DQPopW6I_ZFoXgm.jpg"><meta name="twitter:card" content="summary_large_image"><link rel="manifest" href="/vtc-template/pwa/client-noir-champagne-fr.webmanifest" data-app="client"><meta name="theme-color" content="#0B0A09"><link rel="apple-touch-icon" href="/vtc-template/pwa/icon-noir-champagne-apple-180.png"><link rel="icon" type="image/png" sizes="192x192" href="/vtc-template/pwa/icon-noir-champagne-any-192.png"><meta name="apple-mobile-web-app-title" content="Velours"><script>(function bootTheme(root, read, themes) {
+	try {
+		const raw = read();
+		const theme = raw ? JSON.parse(raw).theme : null;
+		if (typeof theme === "string" && themes.includes(theme)) root.dataset.theme = theme;
+	} catch {}
+})(document.documentElement,function(){return localStorage.getItem("vtc-demo:prefs")},["noir-champagne","bleu-nuit","blanc-emeraude"]);(function bootAppHead(doc, read, heads, brands, apply) {
+	const theme = doc.documentElement.dataset.theme ?? "";
+	let name = null;
+	try {
+		const raw = read();
+		name = raw ? JSON.parse(raw).brandName : null;
+	} catch {}
+	apply(doc, heads[theme], typeof name === "string" && name.trim() !== "" ? name : brands[theme] ?? "");
+})(document,function(){return localStorage.getItem("vtc-demo:prefs")},{"noir-champagne":{"manifest":"/vtc-template/pwa/client-noir-champagne-fr.webmanifest","themeColor":"#0B0A09","appleIcon":"/vtc-template/pwa/icon-noir-champagne-apple-180.png","icon":"/vtc-template/pwa/icon-noir-champagne-any-192.png"},"bleu-nuit":{"manifest":"/vtc-template/pwa/client-bleu-nuit-fr.webmanifest","themeColor":"#0A1020","appleIcon":"/vtc-template/pwa/icon-bleu-nuit-apple-180.png","icon":"/vtc-template/pwa/icon-bleu-nuit-any-192.png"},"blanc-emeraude":{"manifest":"/vtc-template/pwa/client-blanc-emeraude-fr.webmanifest","themeColor":"#F7F6F1","appleIcon":"/vtc-template/pwa/icon-blanc-emeraude-apple-180.png","icon":"/vtc-template/pwa/icon-blanc-emeraude-any-192.png"}},{"noir-champagne":"Velours","bleu-nuit":"Nocturne","blanc-emeraude":"Émeraude"},function applyAppHead(doc, head, title) {
+	if (!head) return;
+	doc.querySelector("link[rel=\"manifest\"]")?.setAttribute("href", head.manifest);
+	doc.querySelector("meta[name=\"theme-color\"]")?.setAttribute("content", head.themeColor);
+	doc.querySelector("link[rel=\"apple-touch-icon\"]")?.setAttribute("href", head.appleIcon);
+	doc.querySelector("link[rel=\"icon\"]")?.setAttribute("href", head.icon);
+	if (title) doc.querySelector("meta[name=\"apple-mobile-web-app-title\"]")?.setAttribute("content", title);
+});</script><link rel="stylesheet" href="/vtc-template/_astro/pages.zK_-rfv_.css"><link rel="stylesheet" href="/vtc-template/_astro/variants.CcCGWZUO.css"><style>.offline{background:radial-gradient(120% 80% at 50% 0%, color-mix(in srgb, var(--accent) 10%, transparent), transparent 60%), var(--bg);place-items:center;min-height:100dvh;padding:32px 16px;display:grid}.offline-card{border:1px solid var(--border);border-radius:var(--radius-lg);background:var(--surface);width:100%;max-width:520px;box-shadow:var(--shadow-md);text-align:center;flex-direction:column;align-items:center;gap:28px;padding:40px 32px 32px;display:flex}.offline-card .logo{max-width:100%;color:var(--text);align-items:center;gap:14px;text-decoration:none;display:inline-flex}.offline-copy{flex-direction:column;align-items:center;gap:14px;display:flex}.offline-icon{border:1px solid var(--border-strong);width:56px;height:56px;color:var(--text-muted);border-radius:50%;place-items:center;display:grid}.offline-icon .ico{width:26px;height:26px}.offline-title{font:var(--fw-medium) var(--text-h3) / var(--lh-snug) var(--font-display);letter-spacing:var(--tracking-display);margin:0}.offline-text{color:var(--text-muted);font-size:var(--text-md);line-height:var(--lh-relaxed);margin:0}.offline-actions{flex-wrap:wrap;justify-content:center;gap:12px;width:100%;display:flex}.offline-actions .btn{flex:200px}.offline-driver{color:var(--text-muted);font-size:var(--text-sm);margin:-12px 0 0}@media (width<=760px){.offline-card{gap:24px;padding:32px 20px 24px}}
+</style></head><body class="vl page offline-page"><main class="offline" id="contenu"><div class="offline-card" data-component="offline-card"><a class="logo" href="/vtc-template/fr/"><span class="logo-mark"><span data-brand-initial>V</span></span><span class="logo-txt"><span class="logo-word" data-brand>Velours</span></span></a><div class="offline-copy"><span class="offline-icon" aria-hidden="true"><svg class="ico" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 9a14 14 0 0 1 4.2-2.8M10.4 5.6A14 14 0 0 1 21.5 9M5.5 12.5a9.5 9.5 0 0 1 4-2.3M14.6 10.4a9.5 9.5 0 0 1 3.9 2.1M8.6 16a5 5 0 0 1 6.8 0M3.5 3.5l17 17"/><circle cx="12" cy="19.3" r=".9"/></svg>
+</span><p class="overline">Hors connexion</p><h1 class="offline-title">Pas de réseau pour le moment</h1><p class="offline-text">Cette page n’est pas encore gardée sur votre appareil. Elle s’affichera dès le retour du réseau ; pour une course urgente, appelez directement votre chauffeur.</p></div><div class="offline-actions"><a class="btn btn-primary" href="tel:+33639981234" data-demo-contact="call" data-toast-title="Appel" data-toast-text="Démonstration : sur le site livré, ce bouton lance l’appel."><svg class="ico" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3.5h3.5l1.8 4.5-2.3 1.4a11 11 0 0 0 6.6 6.6l1.4-2.3 4.5 1.8V19a1.5 1.5 0 0 1-1.6 1.5C10.5 20 4 13.5 3.5 5.1A1.5 1.5 0 0 1 5 3.5z"/></svg>
+Appeler le chauffeur</a><button class="btn btn-secondary" type="button" data-offline-retry><svg class="ico" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4.5h4.5"/></svg>
+Réessayer</button></div><p class="offline-driver">Antoine Delmas · <span class="u-nowrap">06 39 98 12 34</span></p><a class="link-arrow" href="/vtc-template/fr/">Retour à l’accueil <svg class="ico" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+</a></div></main><div class="toast-stack" data-component="toast-stack" aria-live="polite" data-close-label="Fermer la notification"></div><script>(function bootThemePage(doc, read, brands, htmlBrand, applyCopy, applyBrandName) {
+	const theme = doc.documentElement.dataset.theme ?? "";
+	let name = null;
+	try {
+		const raw = read();
+		name = raw ? JSON.parse(raw).brandName : null;
+	} catch {}
+	try {
+		const json = doc.getElementById("theme-copy")?.textContent;
+		if (json) applyCopy(doc, JSON.parse(json)[theme]);
+	} catch {}
+	const brand = typeof name === "string" && name.trim() !== "" ? name : brands[theme];
+	if (brand) applyBrandName(doc, brand, htmlBrand);
+})(document,function(){return localStorage.getItem("vtc-demo:prefs")},{"noir-champagne":"Velours","bleu-nuit":"Nocturne","blanc-emeraude":"Émeraude"},"Velours",function applyThemeCopy(doc, copy) {
+	if (!copy) return;
+	doc.querySelectorAll("[data-tx]").forEach((element) => {
+		const text = copy[element.dataset.tx ?? ""];
+		if (typeof text !== "string") return;
+		const parts = text.split("{brand}");
+		if (parts.length === 1 && element.children.length === 0 && element.textContent === text) return;
+		const nodes = [];
+		parts.forEach((part, i) => {
+			if (part !== "") nodes.push(doc.createTextNode(part));
+			if (i < parts.length - 1) {
+				const brand = doc.createElement("span");
+				brand.setAttribute("data-brand", "");
+				nodes.push(brand);
+			}
+		});
+		element.replaceChildren(...nodes);
+	});
+},function applyBrand(doc, brand, htmlBrand) {
+	doc.querySelectorAll("[data-brand]").forEach((element) => {
+		element.textContent = brand;
+	});
+	const initial = (Array.from(brand)[0] ?? "").toUpperCase();
+	doc.querySelectorAll("[data-brand-initial]").forEach((element) => {
+		element.textContent = initial;
+	});
+	const root = doc.documentElement;
+	if (root.dataset.originalTitle === void 0) root.dataset.originalTitle = doc.title;
+	doc.title = root.dataset.originalTitle.split(htmlBrand).join(brand);
+});</script></body></html><script type="module" src="/vtc-template/_astro/BaseLayout.astro_astro_type_script_index_0_lang.BPOf_68V.js"></script><script type="module" src="/vtc-template/_astro/hors-connexion.astro_astro_type_script_index_0_lang.CtDro4In.js"></script>

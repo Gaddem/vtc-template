@@ -1,0 +1,1 @@
+function e(e){return e.navigator.standalone===!0?!0:e.matchMedia?.(`(display-mode: standalone)`).matches??!1}function t(e){return/iPhone|iPad|iPod/.test(e.userAgent)?!0:e.platform===`MacIntel`&&(e.maxTouchPoints??0)>1}function n(e){return e.standalone?`hidden`:e.canPrompt?`prompt`:`help`}var r=e=>e?`ios`:`other`;export{e as i,n,t as r,r as t};

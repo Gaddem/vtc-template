@@ -1,0 +1,1 @@
+function e(e){return Math.round(e<20?e*1.5+5:e*.75+15)}function t(e){if(e<60)return`${e} min`;let t=Math.floor(e/60),n=e%60;return n===0?`${t} h`:`${t} h ${String(n).padStart(2,`0`)}`}export{e as n,t};

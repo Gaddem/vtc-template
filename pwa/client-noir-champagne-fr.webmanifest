@@ -1,0 +1,33 @@
+{
+  "id": "/vtc-template/",
+  "name": "Velours",
+  "short_name": "Velours",
+  "description": "Votre chauffeur privé à Montpellier et alentours : prix annoncé, réservation en quelques minutes.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "/vtc-template/fr/",
+  "scope": "/vtc-template/",
+  "display": "standalone",
+  "background_color": "#0B0A09",
+  "theme_color": "#0B0A09",
+  "icons": [
+    {
+      "src": "/vtc-template/pwa/icon-noir-champagne-any-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/vtc-template/pwa/icon-noir-champagne-any-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/vtc-template/pwa/icon-noir-champagne-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

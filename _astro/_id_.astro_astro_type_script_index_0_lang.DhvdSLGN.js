@@ -1,0 +1,1 @@
+import{t as e}from"./relative-dates.Z1hAXUuk.js";import"./demo-actions.0R8h8l6c.js";var t=new Date,n=new Intl.DateTimeFormat(`fr-FR`,{day:`2-digit`,month:`2-digit`,year:`numeric`});document.querySelectorAll(`[data-invoice-date]`).forEach(r=>{r.textContent=n.format(e(Number(r.dataset.invoiceDate),`12:00`,t))});

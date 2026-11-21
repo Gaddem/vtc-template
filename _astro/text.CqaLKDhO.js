@@ -1,0 +1,1 @@
+function e(e){let t=2166136261;for(let n=0;n<e.length;n++)t^=e.charCodeAt(n),t=Math.imul(t,16777619);return t>>>0}function t(e){return e.normalize(`NFD`).replace(/[̀-ͯ]/g,``).replace(/[‐-―]/g,`-`).toLowerCase().trim().replace(/\s+/g,` `)}export{t as n,e as t};

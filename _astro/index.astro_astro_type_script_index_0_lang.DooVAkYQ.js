@@ -1,0 +1,1 @@
+import{i as e}from"./relative-dates.Z1hAXUuk.js";e(document,new Date,document.documentElement.lang===`en`?`en`:`fr`);

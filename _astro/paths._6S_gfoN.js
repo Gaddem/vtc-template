@@ -1,0 +1,1 @@
+function e(e,t=`/vtc-template`){if(e.startsWith(`#`))return e;let n=e.search(/[?#]/),r=n===-1?e:e.slice(0,n),i=n===-1?``:e.slice(n),a=t.endsWith(`/`)?t:`${t}/`,o=r.replace(/^\/+/,``);return o===``?a+i:a+((o.split(`/`).filter(Boolean).pop()??``).includes(`.`)||o.endsWith(`/`)?o:`${o}/`)+i}export{e as t};

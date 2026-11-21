@@ -1,0 +1,33 @@
+{
+  "id": "/vtc-template/",
+  "name": "Nocturne",
+  "short_name": "Nocturne",
+  "description": "Your private driver in Montpellier and the surrounding area: fixed price, booked in minutes.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/vtc-template/en/",
+  "scope": "/vtc-template/",
+  "display": "standalone",
+  "background_color": "#0A1020",
+  "theme_color": "#0A1020",
+  "icons": [
+    {
+      "src": "/vtc-template/pwa/icon-bleu-nuit-any-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/vtc-template/pwa/icon-bleu-nuit-any-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/vtc-template/pwa/icon-bleu-nuit-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "/vtc-template/",
+  "name": "Émeraude",
+  "short_name": "Émeraude",
+  "description": "Your private driver in Montpellier and the surrounding area: fixed price, booked in minutes.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/vtc-template/en/",
+  "scope": "/vtc-template/",
+  "display": "standalone",
+  "background_color": "#F7F6F1",
+  "theme_color": "#F7F6F1",
+  "icons": [
+    {
+      "src": "/vtc-template/pwa/icon-blanc-emeraude-any-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/vtc-template/pwa/icon-blanc-emeraude-any-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/vtc-template/pwa/icon-blanc-emeraude-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
